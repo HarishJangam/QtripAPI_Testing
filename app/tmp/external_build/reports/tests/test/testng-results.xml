@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T19:35:16 IST" name="Gradle suite" finished-at="2024-09-21T19:35:38 IST" duration-ms="21847">
+    <groups>
+      <group name="API Tests">
+        <method signature="testCase_API_01.testCase01()[pri:0, instance:qtriptest.APITests.testCase_API_01@1fb669c3]" name="testCase01" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_02.testCase02()[pri:0, instance:qtriptest.APITests.testCase_API_02@58ce9668]" name="testCase02" class="qtriptest.APITests.testCase_API_02"/>
+        <method signature="testCase_API_03.testCase03()[pri:0, instance:qtriptest.APITests.testCase_API_03@172b013]" name="testCase03" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_04.testCase04()[pri:0, instance:qtriptest.APITests.testCase_API_04@56673b2c]" name="testCase04" class="qtriptest.APITests.testCase_API_04"/>
+      </group> <!-- API Tests -->
+    </groups>
+    <test started-at="2024-09-21T19:35:16 IST" name="Gradle test" finished-at="2024-09-21T19:35:38 IST" duration-ms="21847">
+      <class name="qtriptest.APITests.testCase_API_01">
+        <test-method signature="testCase01()[pri:0, instance:qtriptest.APITests.testCase_API_01@1fb669c3]" started-at="2024-09-21T19:35:17 IST" name="testCase01" description="API for register and login" finished-at="2024-09-21T19:35:29 IST" duration-ms="12296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+      </class> <!-- qtriptest.APITests.testCase_API_01 -->
+      <class name="qtriptest.APITests.testCase_API_02">
+        <test-method signature="testCase02()[pri:0, instance:qtriptest.APITests.testCase_API_02@58ce9668]" started-at="2024-09-21T19:35:29 IST" name="testCase02" description="Verify cities" finished-at="2024-09-21T19:35:31 IST" duration-ms="1616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+      </class> <!-- qtriptest.APITests.testCase_API_02 -->
+      <class name="qtriptest.APITests.testCase_API_03">
+        <test-method signature="testCase03()[pri:0, instance:qtriptest.APITests.testCase_API_03@172b013]" started-at="2024-09-21T19:35:31 IST" name="testCase03" description="Verify registration and make booking" finished-at="2024-09-21T19:35:35 IST" duration-ms="4529" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at qtriptest.APITests.testCase_API_03.testCase03(testCase_API_03.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+at com.sun.proxy.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+      </class> <!-- qtriptest.APITests.testCase_API_03 -->
+      <class name="qtriptest.APITests.testCase_API_04">
+        <test-method signature="testCase04()[pri:0, instance:qtriptest.APITests.testCase_API_04@56673b2c]" started-at="2024-09-21T19:35:35 IST" name="testCase04" description="Verify registration and login" finished-at="2024-09-21T19:35:38 IST" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+      </class> <!-- qtriptest.APITests.testCase_API_04 -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

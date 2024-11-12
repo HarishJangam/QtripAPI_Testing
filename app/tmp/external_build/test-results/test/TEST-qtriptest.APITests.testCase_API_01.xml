@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="qtriptest.APITests.testCase_API_01" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-21T14:05:17" hostname="HARI" time="12.296">
+  <properties/>
+  <testcase name="testCase01" classname="qtriptest.APITests.testCase_API_01" time="12.296"/>
+  <system-out><![CDATA[{
+    "success": true
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcmlzaDZmMjhkM2I0LTE3MmUtNDQ4My1hZWMzLTA4YmQyMWVkZGZlM0BnbWFpbC5jb20iLCJpYXQiOjE3MjY5Mjc1MjYsImV4cCI6MTcyNjk0OTEyNn0.G6DHN_wiDRuyfgHr8lkDBKa2qwHGz3hnP6pjvx25wRQ
+{
+    "success": true,
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcmlzaDZmMjhkM2I0LTE3MmUtNDQ4My1hZWMzLTA4YmQyMWVkZGZlM0BnbWFpbC5jb20iLCJpYXQiOjE3MjY5Mjc1MjYsImV4cCI6MTcyNjk0OTEyNn0.G6DHN_wiDRuyfgHr8lkDBKa2qwHGz3hnP6pjvx25wRQ",
+        "id": "LChBXy7xPsXhFqht"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="qtriptest.APITests.testCase_API_04" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-21T14:05:35" hostname="HARI" time="2.741">
+  <properties/>
+  <testcase name="testCase04" classname="qtriptest.APITests.testCase_API_04" time="2.741"/>
+  <system-out><![CDATA[{
+    "success": false,
+    "message": "Email already exists"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

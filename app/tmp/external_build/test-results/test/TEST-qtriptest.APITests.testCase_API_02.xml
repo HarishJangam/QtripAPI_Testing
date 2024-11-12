@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="qtriptest.APITests.testCase_API_02" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-21T14:05:29" hostname="HARI" time="1.616">
+  <properties/>
+  <testcase name="testCase02" classname="qtriptest.APITests.testCase_API_02" time="1.616"/>
+  <system-out><![CDATA[[
+    {
+        "id": "bengaluru",
+        "city": "Bengaluru",
+        "description": "100+ Places",
+        "image": "https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+{
+    "success": true
+}
+ÖeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcmlzaDZmMjhkM2I0LTE3MmUtNDQ4My1hZWMzLTA4YmQyMWVkZGZlM0BnbWFpbC5jb20iLCJpYXQiOjE3MjY5Mjc1MjYsImV4cCI6MTcyNjk0OTEyNn0.G6DHN_wiDRuyfgHr8lkDBKa2qwHGz3hnP6pjvx25wRQ
+{
+    "success": true,
+    "data": {
+é        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcmlzaDZmMjhkM2I0LTE3MmUtNDQ4My1hZWMzLTA4YmQyMWVkZGZlM0BnbWFpbC5jb20iLCJpYXQiOjE3MjY5Mjc1MjYsImV4cCI6MTcyNjk0OTEyNn0.G6DHN_wiDRuyfgHr8lkDBKa2qwHGz3hnP6pjvx25wRQ",
+!        "id": "LChBXy7xPsXhFqht"
+    }
+}
+[
+    {
+        "id": "bengaluru",
+        "city": "Bengaluru",
+&        "description": "100+ Places",
+ƒ        "image": "https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+]
+{
+    "success": true,
+    "data": {
+¼        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IlFBX0FQSTM0QGdtYWlsLmNvbSIsImlhdCI6MTcyNjkyNzUzNCwiZXhwIjoxNzI2OTQ5MTM0fQ.WSWab8FQcBrIHX5kTw3R7v-trZXfs4ovxfhBIOAMkNc",
+!        "id": "yow0hkkxltBDfGab"
+    }
+}
+Booking Response: {
+K    "message": "Date of booking is incorrect. Can't book for a past date!"
+}
+{
+    "success": false,
+&    "message": "Email already exists"
+}
